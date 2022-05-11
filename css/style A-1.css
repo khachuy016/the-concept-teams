@@ -1,0 +1,136 @@
+
+.accordions {
+/*	padding-top: 36px!important;*/
+  width: 70%;
+}
+
+.accordion-items {
+/*  background-color: #fff;*/
+  color: #333946;
+  margin: 1rem 0;
+  border-bottom: 1px solid #fff;
+/*  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);*/
+}
+
+.accordion-item-headers {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+/*
+.accordion-item-body-content p{
+	width: 60%!important;
+}
+*/
+.accordion-item-headers h3{
+	font-size: 20px;
+	font-weight: 600;
+/*	margin: 0 auto;*/
+	margin-left: 48px;
+}
+.accordion-item-headers h4{
+	font-size: 18px;
+	font-weight: 600;
+}
+.accordion-item-body-contents h5{
+	font-weight: 300;
+	color: #FFC300;
+}
+.accordion-item-headers::after {
+  content: "\002B";
+  font-size: 1.5rem;
+  position: absolute;
+  right: 1rem;
+	color: #fff;
+}
+
+.accordion-item-headers.active::after {
+  content: "\2212";
+}
+.accordion-item-bodys {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-contents p{
+	color: #FFFFFF;
+}
+.accordion-item-body-contents {
+	width: 100%;
+	justify-content:space-between;
+	display: flex;
+  padding: 1rem;
+  line-height: 1.5rem;
+/*	background-color: #2657AB;*/
+  border-top: 1px solid #fff;
+/*  border-image: linear-gradient(to right, transparent, #34495e, transparent) 0.5;*/
+}
+
+
+@media(max-width:767px) {
+	.accordion-item-body-contents img{
+		display: block;
+		margin: 0 auto;
+		margin: 15px;
+	}
+	.accordion-item-body-contents{
+		display: block;
+		margin-bottom: 0px!important;
+	}
+	.accordion-item-body-contents img{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.accordion-item-body-contents p{
+		margin: 0 auto;
+		margin-top: 20px;
+		width: 100%;
+	}
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 576px){
+	.accordion-item-headers{
+		flex: none;
+	}
+	.accordions{
+/*		padding: 24px 15px!important;*/
+	}
+	.accordion-item-headers::after {
+font-size: 1.5rem;;
+}
+	.accordion-item-headers h3{
+	font-size: 14px!important;
+}	
+	.accordion-item-headers h4{
+	font-size: 12px;
+}
+	.accordion-item-body-contents p{
+		font-size: 12.5px;
+		width: 100%;
+	margin: 10px 0;
+}
+	.accordion-item-body-contents{
+		display: block;
+		flex: none;
+		text-align: left;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

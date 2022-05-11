@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/* CSS Document */
+.pa-vitri-2{
+	display: none;
+}
+@media screen and (max-width:1024px){
+	.pa-vitri-2{
+	display: block;
+}	.pa-vitri{
+	display: none;
+}
+	.info-thi-cong p{
+		width: 100%;
+	}
+	.box-box{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.services h1{
+		width: 100%;
+		font-size: 72px;
+		position: absolute;
+		top: 50%;
+		left: 50;
+
+}
+	.material-symbols-outlined{
+		font-size: 20px!important
+	}
+	.legacy img{
+		display: none;
+	}
+	.main-team-1 h1{
+		padding-bottom: 0;
+		font-size: 42px;
+		width: 100%;
+		padding-top: 200px!important;
+	}
+	.info-project{
+	padding-left: 0!important;
+	}
+	.title-project{
+		padding-left:15px!important;
+		padding-bottom: 15px!important;
+	}
+	.slider-btns-1{
+		padding-left: 15px!important;
+		width: 40%!important;
+	}
+	.slider-btns-1 p{
+		display: none!important;
+	}
+	.slider-btns button{
+		width: 55px!important;
+		height: 20px!important;
+		padding: 12px 5px 12px 5px!important;
+		font-size: 2px!important;
+	}
+	.info-project .slider-btns-1{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.project-1 img{
+		width: 100%!important;
+	}
+	.project-1{
+		padding-right: 0!important;
+	}
+	.form-tu-van{
+		display: block!important;
+		position: relative;
+		margin-top: 0px!important;
+		background-color: #0047BB;
+		
+	}
+	.tu-van{
+		position: relative;
+		margin-bottom: 72px!important;
+		display: block!important;
+		flex: none!important;
+		height:auto!important; 
+	}
+	.img-form img{
+		height: 300px!important;
+	}
+	.info-form{
+		margin-left: 0!important;
+	}
+	.box-1{
+		margin-bottom: 30px;
+	}
+	.info-about h2{
+/*		padding-left: 15px;*/
+		width: 80%;
+	}
+	
+	.legacy img{
+/*		display: none;*/
+	}
+	.info-about h1,
+	.info-about p{
+/*		padding: 0 15px!important;*/
+	}
+	.info-about h1{
+		width: 80%;
+		margin-bottom: 15px;
+		font-size: 38px;
+	}
+	.tilte-offer h1{
+		padding: 48px 0;
+		margin: auto;
+		font-size: 38px;
+		width: 60%;
+	}
+	.people h1{
+		font-size: 38px;
+	}
+	.people p{
+		width: 100%;
+	}
+	.title-sustainability h1{
+		font-size: 38px;
+	}
+	.people-1 h1{
+		font-size: 38px;
+	}
+	.people-1{
+		padding: 33px 15px 0px 15px;
+	}
+	.people{
+		padding-top: 48px;
+		padding-bottom: 15px;
+	}
+	.hinhanh img{
+ 		padding-bottom: 48px;
+	}
+	.sustainability{
+		align-items:center;
+		padding-bottom: 30px;
+/*		margin-top: 48px;*/
+	}
+}
+@media screen and (max-width:576px){
+	.info-offer h3{
+		padding: 0!important;
+	}
+	.info-offer h6{
+		padding-bottom: 0;
+	}
+	.boder-b{
+		display: none;
+	}
+	.legacy{
+		position: relative;
+	}
+	.offer{
+		border-top: none;
+	}
+	.tilte-offer h1{
+		margin-top: 160px!important;
+	}
+	.info-about h2{
+		padding-left: 0;
+		font-size: 32px;
+		width: 100%;
+	}
+	.main-team-1 h1{
+		line-height: 35px!important;
+		margin: 0 auto;
+		font-size: 32px;
+		width: 100%;
+		padding-top: 150px!important;
+		padding-bottom: 20px;
+	}
+	.people p{
+		width: 100%!important;
+	}
+	.people-2 img{
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.project,
+	.project-1{
+		padding-left: 0px!important;
+	}
+	.project-1 img{
+		padding: 0 15px!important;
+		height: 550px!important;
+	}
+	
+	.info-about h1,
+	.info-about p{
+		padding: 0!important;
+	}
+	.info-about h1{
+		width: 100%;
+		margin-bottom: 15px;
+		font-size: 32px;
+	}
+	.tilte-offer h1{
+		text-align: left;
+		font-size: 32px;
+		width: 100%;
+	}
+	.people h1{
+		font-size: 38px;
+	}
+	.people p{
+		width: 80%;
+	}
+	.info-offer p,
+	.info-offer h6,
+	.info-offer h3{
+		padding-left: 0px;
+		padding-right: 0;
+	}
+	.title-sustainability h1{
+		font-size: 38px;
+	}
+	.people-1 h1{
+		font-size: 38px;
+	}
+	.hinhanh img{
+		padding-left: 0!important;
+		padding-right: 0!important;
+		padding-top: 0!important;
+		padding-bottom: 30px!important;
+	}
+	
+	.icon-padding{
+		padding-top: 15px!important;
+	}
+	.box-3{
+		margin-top: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+

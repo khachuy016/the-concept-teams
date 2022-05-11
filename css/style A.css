@@ -1,0 +1,148 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.accordion {
+/*	padding-top: 36px!important;*/
+  width: 100%;
+	padding-top: 32px;
+  margin: 2rem auto;
+}
+.accordion-item {
+/*  background-color: #fff;*/
+  color: #333946;
+  margin: 1rem 0;
+  border-bottom: 1px solid rgba(51,57,70,0.5);
+/*  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);*/
+}
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+/*
+.accordion-item-body-content p{
+	width: 60%!important;
+}
+*/
+.accordion-item-header h3{
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0 auto;
+	color: rgba(0,71,187,1.00);
+}
+.accordion-item-header h4{
+	font-size: 18px;
+	font-weight: 600;
+	color: rgba(0,71,187,1.00);
+}
+.accordion-item-body-content h5{
+	font-weight: 300;
+	color: #FFC300;
+}
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 1.5rem;
+  position: absolute;
+  right: 1rem;
+	color: #2657AB;
+}
+
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content p{
+	color: #FFFFFF;
+}
+.accordion-item-body-content {
+	width: 100%;
+	justify-content:space-between;
+	display: flex;
+  padding: 1rem;
+  line-height: 1.5rem;
+	background-color: #0A429F;
+/*  border-top: 1px solid;*/
+/*  border-image: linear-gradient(to right, transparent, #34495e, transparent) 0.5;*/
+}
+
+
+@media(max-width:767px) {
+	.accordion-item-body-content img{
+		display: block;
+		margin: 0 auto;
+		margin: 15px;
+	}
+	.accordion-item-body-content{
+		display: block;
+		margin-bottom: 0px!important;
+	}
+	.accordion-item-body-content img{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.accordion-item-body-content p{
+		margin: 0 auto;
+		margin-top: 20px;
+		width: 100%;
+	}
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 576px){
+	.accordion {
+		margin-bottom: 36px;
+	}
+	.accordion-item-header{
+		flex: none;
+	}
+	.accordion{
+/*		padding: 24px 15px!important;*/
+	}
+	.accordion-item-header::after {
+font-size: 1.5rem;;
+}
+	.accordion-item-header h3{
+	font-size: 14px;
+}	
+	.accordion-item-header h4{
+	font-size: 12px;
+}
+	.accordion-item-body-content p{
+		font-size: 12.5px;
+		width: 100%;
+	margin: 10px 0;
+}
+	.accordion-item-body-content{
+		display: block;
+		flex: none;
+		text-align: left;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
